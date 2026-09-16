@@ -36,6 +36,8 @@ DSH 官方明确**不回收**附件。`@deepseek-ai/dsh-attachment-local` 的 RE
 
 宁可少删，不可删错。
 
+完整的三档判定规则、安全保证与已知边界见 **[docs/safety.md](docs/safety.md)**。
+
 ## 不做的事
 
 不清理日志 / 临时文件 / 备份目录；不管理 `profiles/` 下的插件依赖；不做定时自动清理；不允许模型替用户删数据；不支持远端 / 共享存储后端。
