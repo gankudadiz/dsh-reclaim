@@ -1,0 +1,32 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+lib/
+client/
+dist/
+*.tsbuildinfo
+
+# 测试与覆盖率
+coverage/
+.nyc_output/
+*.lcov
+
+# 编辑器与操作系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与环境
+*.log
+npm-debug.log*
+yarn-error.log*
+.env
+.env.*
+!.env.example
+
+# 打包产物
+*.tgz
